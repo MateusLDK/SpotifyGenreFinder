@@ -71,9 +71,11 @@ Cole o link da playlist do Spotify: https://open.spotify.com/playlist/37i9dQZF1D
 ...
 ```
 
+
 ## 🎨 Estrutura do Projeto
 
-- `genreFinder.py`: Script principal com a classe ConnectSpotify e lógica de classificação
+- `genreFinder.py`: Script principal com a classe ConnectSpotify e toda a lógica de integração com Spotify
+- `genre_classifier.py`: Módulo dedicado à classificação de gêneros musicais (função classify_genre)
 - `README.md`: Documentação do projeto
 - `.env`: Arquivo de configuração (não incluído no repositório)
 
